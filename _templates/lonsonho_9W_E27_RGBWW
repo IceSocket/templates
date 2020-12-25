@@ -16,6 +16,7 @@ Flashed with tuya-convert
 April 2020 Update: Tuya-convert fails. Flashing over the Serial port is still possible.
 ![Serial](https://user-images.githubusercontent.com/12531018/81516053-f79d0000-9336-11ea-9448-f04c56f8a087.jpg)
 
+2020-12-25 Update: RGBW bulb replaced by RGB+W+C (RGBCW) variant powered by "TY5" WiFi module (chip: Winner Micro W600-B800) not ESP8266 compatible. Main circuit board still pin compatible with e.g. ESP-12F module.
 
 
 
