@@ -17,3 +17,5 @@ This Star / Moon / Nebula projector appears to be driven by either a TYWE3S or a
 To flash and use the TYWE3S the switch needs to be on the WiFi setting. Disassembly of the unit is simple. Wires then need to be soldered to the pins on the TYWES3 as per the guidance on the [TuyaMCU Devices Page](https://tasmota.github.io/docs/TuyaMCU-Devices/). There's no need to ground NRST on the ST microcontroller, as the Rx / Tx pins are not connected to it.
 
 The R, G, B components of the Nebula are driven by GPIO's 4, 12, and 14 respectively. The Star and Moon effects do not seem to be separately controllable from the WiFi chip - they are simply come on and off with the main nebula effect.
+
+Update 2020-12-25: Unit recieved with WB3S module, not previous compatible TYW3S module complatible. Main circuit board and pinout is the same so WiFi chip can be swapped with e.g. ESP-12F module.
